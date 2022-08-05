@@ -5,6 +5,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	text-align: center;
 }
 .cardContainer{
 	display: block;
@@ -21,8 +22,7 @@ body{
 	@extend %flex;
 	align-items: center;
 }
-.imageContainer{
-	background-color: aquamarine;
+.imageContainer img{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
@@ -50,4 +50,9 @@ color: black;
 }
 .btnContainer button{
 	background-color: rgba(0,0,255,0.4)
+}
+.infoContainer{
+	position: absolute;
+	top: 500px;
+	align-items: center;
 }
